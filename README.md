@@ -33,10 +33,6 @@ This project was tested using manual WAR deployment on Apache Tomcat 9.
 8. Test it at http://localhost:8081/mlops-pipeline-api/api/v1
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41dab9f8b42e08965056a8751362644e03658879
 curl Examples
 
 1. Discovery
