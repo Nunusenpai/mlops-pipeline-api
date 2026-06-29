@@ -33,6 +33,10 @@ This project was tested using manual WAR deployment on Apache Tomcat 9.
 8. Test it at http://localhost:8081/mlops-pipeline-api/api/v1
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 41dab9f8b42e08965056a8751362644e03658879
 curl Examples
 
 1. Discovery
@@ -141,5 +145,3 @@ A: Inside request and response filters, the ContainerRequestContext and Containe
 1.The request URI and HTTP method, retrieved using requestContext.getUriInfo().getRequestUri() and requestContext.getMethod(). These values identify the endpoint path targeted by the user and the HTTP verb used, which is the starting point for reproducing API issues.
 2.The final response status code, retrieved using responseContext.getStatus(). This indicates the outcome of the request, such as 201 Created, 404 Not Found, 409 Conflict, or 500 Internal Server Error.
 Logging this information alongside the request URI provides a clear and useful audit trail of API activity. It helps monitor service health, identify repeated errors, and understand client usage patterns.
-
-
