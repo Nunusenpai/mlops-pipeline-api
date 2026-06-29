@@ -1,4 +1,5 @@
 MLOps Pipeline Management API
+
 This project is a JAX-RS RESTful API for managing machine learning workspaces, machine learning models and evaluation metrics. It was developed for the Client-Server Architectures coursework using Java, Maven, Jersey/JAX-RS and Apache Tomcat 9.
 The API uses an in-memory data store with HashMap and ArrayList. No external database is used.
 
