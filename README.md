@@ -1,3 +1,9 @@
+Module: 5COSC022W Client server architecture
+
+Name: Nunu Rai
+
+ID: W2107392
+
 MLOps Pipeline Management API
 
 This project is a JAX-RS RESTful API for managing machine learning workspaces, machine learning models and evaluation metrics. It was developed for the Client-Server Architectures coursework using Java, Maven, Jersey/JAX-RS and Apache Tomcat 9.
