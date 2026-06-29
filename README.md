@@ -32,6 +32,8 @@ This project was tested using manual WAR deployment on Apache Tomcat 9.
 7. Start Tomcat, it'll extract and deploy automatically
 8. Test it at http://localhost:8081/mlops-pipeline-api/api/v1
 
+
+
 curl Examples
 
 1. Discovery
@@ -71,6 +73,7 @@ curl -X DELETE http://localhost:8081/mlops-pipeline-api/api/v1/workspaces/WS-VIS
 QUESTIONS ANSWERS:
 
 Part 1: Service Architecture & Setup
+
 Question: When returning a Java object from a method, it is automatically serialised into
 JSON. Explain the role of a MessageBodyWriter or a JSON provider (like Jackson) in this conversion Process/
 A: When a JAX-RS resource method returns a plain Java object, the framework needs a way to convert that object into a format suitable for an HTTP response. This conversion is handled by a MessageBodyWriter or a JSON provider. The JAX-RS runtime checks the return type and the requested media type, such as application/json, then selects a suitable provider to serialize the Java object.
